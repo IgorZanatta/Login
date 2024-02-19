@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #00FA9A;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+#nomeUsuarioDisplay {
+    font-family: 'Sans-Serif-Bold', sans-serif;
+    top: 10px;
+    left: 50%;
+    background-color: #6ebc45;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn,
+.btn-voltar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #32CD32;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn-voltar {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/* Conectar os botões com linhas */
+.line {
+    position: absolute;
+    border: 2px solid #228B22;
+}
+
+.btn1 {
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1px auto;
+    background-color: #E0FFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.exercise-container h1,
+.exercise-container p {
+    margin-top: 0;
+}
+
+.exercise-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.exercise-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.options-container-quest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #32CD32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #228B22;
+}
+
+#actionButtons {
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #3CB371;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-hints {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: 1; /* Adicionei um índice z para garantir que fique acima dos outros elementos */
+}
+
+.button-hints:hover {
+    background-color: #45a049;
+}
+
+.swal2-popup {
+    width: 50%;
+}
+
+.swal2-title {
+    font-size: 1.5em;
+}
+
+.swal2-content {
+    font-size: 1.2em;
+}
+
+.rank-table-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+#rank-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#rank-table th,
+#rank-table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+#rank-table th {
+    background-color: #333;
+}
+
+
+.textoinicio p {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    max-width: 600px;
+    color: #333;
+}
+
+.textoinicio {
+    background-color: #6ebc45;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#pontuacaoAtual {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+#pontuacao {
+    color: #4CAF50;
+    font-size: 20px; /* Ajustei o tamanho da fonte */
+    margin-top: 10px; /* Adicionei uma margem superior */
+}
+
+#questaoElemento {
+    font-size: 24px;
+    font-weight: bold;
+ /* Adicionei uma margem superior */
+}
+
+.questao-h1 {
+    /* Estilize conforme necessário */
+    color: black; /* Exemplo: Cor preta */
+    font-size: 30px; /* Exemplo: Tamanho da fonte */
+    margin-top: 10px; /* Adicionei uma margem superior */
+}

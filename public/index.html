@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script src="/javascrip/login.js"></script>
+</head>
+<body>
+
+    <div id="container-log">
+        <h1 id="h1-login">
+            Login
+        </h1>
+        <form id="login">
+            <label for="nomes">Nome</label>
+            <input type="text" name="nomes" id="nomes" placeholder="Digite seu Nome" required>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+            <a href="#" target="_blank" id="esqueceu">Esqueceu sua Senha? </a>
+
+        </form>
+
+        <button type="submit" onclick="logar()" value="entrar" id="btn-login">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        ENTRAR
+        </button>
+        
+        <div id="registro">
+            <p>Ainda não é cadastrado?</p>
+            <a href="./acesso-restirto/index.html">Criar Conta</a>
+        </div>
+       
+    </div>
+    <a href="./snakegame/index.html" id="btn-voltar">&larr; Voltar</a>
+</body>
+</html>

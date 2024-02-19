@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to right, #4d4d4d, #232323);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+#container-log {
+    background-color: rgba(137, 179, 207, 0.8);
+    width: 400px;
+    margin: 5vh auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px solid #08558b;
+}
+
+#esqueceu {
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color: #08558b;
+}
+
+#btn-login {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #08558b;
+    opacity: 0.9;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#btn-login:hover {
+    background: #011420;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2),
+                0 0 25px rgba(0, 0, 0, 0.2),
+                0 0 50px rgba(0, 0, 0, 0.2),
+                0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+#registro p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#registro a {
+    font-size: 18px;
+    color: #08558b;
+}
+
+#registro a:hover {
+    font-size: 20px;
+    transition: 1s;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0 0 5px #08558b,
+                0 0 25px #08558b,
+                0 0 50px #08558b,
+                0 0 100px #08558b;
+}
+
+
+#btn-voltar {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 100px auto; /* Centraliza verticalmente e define a margem */
+    max-width: 100px; /* Define o limite de largura */
+}
+
+#btn-voltar:hover {
+    background-color: #45a049;
+}

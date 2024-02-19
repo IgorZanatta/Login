@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container-login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 300px; /* Defina o valor desejado para o máximo de largura */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilizando o botão com o efeito de ondulação */
+#btn-logincad {
+    position: relative;
+    overflow: hidden;
+}
+
+#btn-logincad span {
+    position: absolute;
+    display: block;
+}
+
+#btn-logincad span:nth-child(1),
+#btn-logincad span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+#btn-logincad span:nth-child(3),
+#btn-logincad span:nth-child(4) {
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    transform: translateX(-50%);
+    transition: transform 0.3s;
+}
+
+#btn-logincad:hover span:nth-child(1),
+#btn-logincad:hover span:nth-child(2) {
+    transform: translateY(0);
+}
+
+#btn-logincad:hover span:nth-child(3),
+#btn-logincad:hover span:nth-child(4) {
+    transform: translateX(0);
+}
+
+/* Restante do seu estilo CSS aqui */
+
+#btn-voltar {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto; /* Centraliza verticalmente e define a margem */
+    max-width: 150px; /* Define o limite de largura */
+}
+
+#btn-voltar:hover {
+    background-color: #45a049;
+}

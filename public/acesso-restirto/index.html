@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina do acesso</title>
+    <link rel="stylesheet" href="/acesso-restirto/css/style.css">
+    <script src="/javascrip/acesso.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div id="container-login">
+            <h1>Cadastro Novos Jogadores</h1>
+            <p>A baixo você deve criar seu nome de jogador junto a senha que serão usados para fazer login.</p>
+            <form id="logincad">
+                <label for="nomescad">Nome</label>
+                <input type="text" name="nomescad" id="nomescad" placeholder="Digite o nome" required>
+                <label for="senhacad">Senha</label>
+                <input type="password" name="senhacad" id="senhacad" placeholder="Digite a senha" required>
+    
+    
+            </form>
+    
+            <button onclick="cadastrar()" type="submit" value="enviar-cadastro" id="btn-logincad">
+                Enviar cadastro
+            </button>
+            <a href="../index.html" id="btn-voltar">&larr; Voltar</a>
+        </div>
+    
+
+
+    </header>
+    
+</body>
+</html>

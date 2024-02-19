@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeCode</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JavaScript/popup.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="painel">
+            <h1>SnakeCode</h1>
+        </div>
+        <div class="botao">
+            <a href="../index.html" class="btn">Iniciar</a>
+            <a href="#" class="btn" onclick="showPopup('Objetivo', 'Bem-vindo ao SnakeCode, o jogo educacional que transforma o aprendizado de desenvolvimento web em uma experiência envolvente! Antes de iniciar sua jornada, confira as informações essenciais: <pre> O SnakeCode visa trabalhar conceitos desde o básico até o intermediário, explorando o universo do desenvolvimento web por meio de desafios envolventes. Clique em Iniciar para embarcar nas missões que o levarão ao próximo nível. Acumule pontos, suba no ranking e mostre suas habilidades.  <pre> Lembre-se de que a precisão é fundamental. Cada erro resulta em penalidades, perdendo um ponto do seu placar. Caso surjam dúvidas, não se preocupe! A seção de dicas está disponível para orientá-lo na resolução dos exercícios. <pre> Se necessário, aproveite recursos externos como fóruns e vídeos para aprimorar seu entendimento e enriquecer seu conhecimento. Estamos aqui para tornar sua jornada educacional divertida e recompensadora.<pre> Boa sorte e divirta-se aprendendo!')">Informações</a>
+        </div>
+    </div>
+
+    <!-- Adicionando botão de interrogação -->
+    <div class="help-btn" onclick="showPopup('Quem Somos?', 'Eu sou Igor Zanatta Saraiva, aluno de Engenharia de Computação na UFGD. Este projeto nasceu com a proposta de ser um jogo educacional centrado no desenvolvimento web. O objetivo principal é aprimorar as habilidades dos jogadores nesse campo, proporcionando uma experiência interativa para resolver problemas simples. Estamos comprometidos em oferecer uma plataforma que desafie e envolva os usuários. Acredito que a aprendizagem pode ser uma jornada emocionante, e é isso que buscamos proporcionar com este projeto. Seja bem-vindo ao nosso espaço educacional, onde a tecnologia se encontra com a aprendizagem prática. Junte-se a nós nessa jornada e explore o mundo do desenvolvimento web de uma maneira única. Vamos aprender juntos!')">?</div>
+
+    <div class="popup-container" id="popupContainer">
+        <div class="popup">
+            <!-- Usando IDs corretos -->
+            <h2 id="popupTitle">Título do Pop-up</h2>
+            <p id="popupText">Texto do Pop-up</p>
+            <button class="close-btn" onclick="closePopup()">Fechar</button>
+        </div>
+    </div>
+</body>
+</html>

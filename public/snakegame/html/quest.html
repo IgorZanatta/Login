@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeCode</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="../JavaScript/exercises.js" defer></script>
+    <script type="module" src="../JavaScript/hints.js" defer></script>
+    <script type="module" src="../JavaScript/quest.js" defer></script>
+    <script type="module" src="../JavaScript/rank.js"></script>
+    <script type="module" src="../JavaScript/pagina1.js" defer></script>
+
+</head>
+<body>
+    
+
+    <h1 id="nomeUsuarioDisplay"></h1>
+    <p>Pontuação Atual: <span id="pontuacao"></span></p>
+    <h3 class="questao-h1" id="questaoElemento"></h3>
+
+    <!-- Adicione a tabela de classificação no canto superior esquerdo -->
+    <div class="rank-table-container">
+        <h2>Rank</h2>
+        <table id="rank-table">
+            <!-- Conteúdo da tabela será preenchido dinamicamente via JavaScript -->
+        </table>
+    </div>
+
+    <div class="exercise-container">
+        <div class="exercise-title" id="exerciseTitle"></div>
+        <div class="exercise-text" id="exerciseText"></div>
+        <div class="options-container-quest" id="optionsContainer"></div>
+        <a href="./pagina1.html" class="btn-voltar">voltar</a>
+    </div>
+
+    <button class="button-hints" id="hintsButton" onclick="showHints()">Dicas</button>
+
+</body>
+</html>
