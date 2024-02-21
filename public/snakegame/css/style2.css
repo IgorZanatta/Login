@@ -1,21 +1,26 @@
 body {
     margin: 0;
+    background-image: url('../../img/1.jpg');
+    background-size: 100% auto; /* 100% de largura, altura automática */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background-color: #00FA9A;
+    background-color: #4B0082;
     font-family: Arial, sans-serif;
     padding: 0;
+    color: #FFFFFF; 
 }
 
 #nomeUsuarioDisplay {
     font-family: 'Sans-Serif-Bold', sans-serif;
     top: 10px;
     left: 50%;
-    background-color: #6ebc45;
-    color: #fff;
+    background-color: #1E90FF;
+    color: #FFFFFF; 
     padding: 15px 25px;
     font-size: 24px;
     font-weight: bold;
@@ -41,9 +46,9 @@ body {
     justify-content: center;
     width: 120px;
     height: 120px;
-    background-color: #32CD32;
+    background-color: #1E90FF;
+    color: #FFFFFF;
     border-radius: 50%;
-    color: #fff;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -52,16 +57,13 @@ body {
 }
 
 .btn-voltar {
+    
     width: 70px;
     height: 40px;
     border-radius: 10px;
 }
 
-/* Conectar os botões com linhas */
-.line {
-    position: absolute;
-    border: 2px solid #228B22;
-}
+
 
 .btn1 {
     margin-top: 40px;
@@ -86,6 +88,7 @@ body {
 }
 
 .exercise-title {
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +99,7 @@ body {
 }
 
 .exercise-text {
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,8 +125,8 @@ body {
     justify-content: center;
     margin-top: 15px;
     padding: 10px;
-    background-color: #32CD32;
-    color: #fff;
+    background-color: #1E90FF;
+    color: #FFFFFF; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -130,14 +134,14 @@ body {
 }
 
 .option:hover {
-    background-color: #228B22;
+    background-color: #0000CD;
 }
 
 #actionButtons {
     margin-top: 30px;
     text-align: center;
     padding: 10px 20px;
-    background-color: #3CB371;
+    background-color: #1E90FF;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -219,22 +223,32 @@ body {
 }
 
 .textoinicio {
-    background-color: #6ebc45;
+    background-color: #1E90FF;
+    color: #FFFFFF;
     padding: 30px;
-    color: #ffffff;
     border-radius: 10px;
 }
 
 #pontuacaoAtual {
-    font-size: 30px;
+    font-size: 10px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
+}
+
+#back{
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #pontuacao {
-    color: #4CAF50;
-    font-size: 20px; /* Ajustei o tamanho da fonte */
-    margin-top: 10px; /* Adicionei uma margem superior */
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px; /* Exemplo: Tamanho da fonte */
+    margin-top: 10px;  /* Adicionei uma margem superior */
 }
 
 #questaoElemento {
@@ -245,7 +259,10 @@ body {
 
 .questao-h1 {
     /* Estilize conforme necessário */
-    color: black; /* Exemplo: Cor preta */
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
     font-size: 30px; /* Exemplo: Tamanho da fonte */
     margin-top: 10px; /* Adicionei uma margem superior */
 }

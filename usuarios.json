@@ -1,22 +1,67 @@
 [
     {
-        "nome": "Bruna",
-        "senha": "123",
-        "point": 21
-    },
-    {
-        "nome": "carlos",
-        "senha": "123",
-        "point": 9
-    },
-    {
         "nome": "paulo",
         "senha": "123",
+        "point": 6
+    },
+    {
+        "nome": "amanda",
+        "senha": "aa",
+        "point": 1
+    },
+    {
+        "nome": "Igor",
+        "senha": "12344321",
+        "point": 10
+    },
+    {
+        "nome": "Bruna",
+        "senha": "12344321",
         "point": 7
     },
     {
-        "nome": "paulo zika",
+        "nome": "paulopaulada",
+        "senha": "0357",
+        "point": 3
+    },
+    {
+        "nome": "paulopaulada",
+        "senha": "0357",
+        "point": 0
+    },
+    {
+        "nome": "Kennedy",
+        "senha": "kenedy",
+        "point": 0
+    },
+    {
+        "nome": "Kennedy",
+        "senha": "kenedy",
+        "point": 0
+    },
+    {
+        "nome": "Geilso",
+        "senha": "123geilso",
+        "point": 9
+    },
+    {
+        "nome": "arthur",
+        "senha": "arthur123",
+        "point": 0
+    },
+    {
+        "nome": "Faustao",
+        "senha": "12344321",
+        "point": 0
+    },
+    {
+        "nome": "Faustao",
+        "senha": "12344321",
+        "point": 0
+    },
+    {
+        "nome": "milhas",
         "senha": "123",
-        "point": 6
+        "point": 3
     }
 ]
